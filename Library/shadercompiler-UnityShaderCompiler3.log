@@ -1,0 +1,47 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.3.0a2/2019.2.2f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.3.0a2/2019.2.2f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: translateComputeKernel
+  api=14 insize=773 outsize=806 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=14 type=0 insize=11846 outsize=2664 kw=SHADOWS_SPLIT_SPHERES pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=20436 outsize=15135 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: translateComputeKernel
+  api=14 insize=1607 outsize=2106 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=1186 outsize=1575 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=1575 outsize=2030 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 14 at RayTracingShader.compute(105): undeclared identifier '_SkyboxTexture'
+  api=14 insize=3292 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at RayTracingShader.compute(105): undeclared identifier 'sampler_SkyboxTexture'
+  api=14 insize=3292 outsize=0 ok=0
+Cmd: compileComputeKernel
+  api=14 insize=3311 outsize=4041 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=4041 outsize=6001 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=3875 outsize=4725 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5137 outsize=9060 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=3980 outsize=5145 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=3983 outsize=5145 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5145 outsize=9064 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=3997 outsize=5145 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(137): use of potentially uninitialized variable (Shade)
+  api=14 insize=4833 outsize=6654 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=4370 outsize=7589 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(138): use of potentially uninitialized variable (Shade)
+  api=14 insize=4810 outsize=6801 ok=1
